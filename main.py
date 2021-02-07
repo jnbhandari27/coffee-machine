@@ -14,9 +14,8 @@ def insert_coins():
 
 
 def get_report():
-    print(resources)
     for key in resources:
-        print(key, ": ", resources[key])
+        print(key, ": ", resources[key][0], [key][1])
 
 
 def resources_data(water, milk, coffee, option):
